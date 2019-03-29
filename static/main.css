@@ -1,0 +1,189 @@
+body, h2, h3, h4{ margin:0; padding: 0; }
+p{font-size: 0.9em; padding: 5px; font-weight: normal;}
+a{color: #18bc9c; text-decoration: underline;}
+
+div.column{
+	height: 100%;
+	width:100%;
+	margin:0 auto;
+}
+
+section#projects{
+	height: 100%;
+	width: 100%;
+
+	display:flex;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+section#projects div.project{
+	padding: 4px;
+	width: 100%;
+	height: 200px;
+	position: relative;
+	margin: 1em 0;
+	box-shadow: 2px 3px 9px #000000;
+	/*border:solid orange 3px;*/
+}
+
+section#projects div.project div.background{
+	height: 100%;
+	width: 100%;
+
+	background-size: cover; 
+	background-color: #18bc9c;
+
+	color: #0c5648;
+	font-weight: bold;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+section#projects div.project div.background h2{
+	font-size: 1.3em;
+	padding:3px;
+    display: inline-block;
+    background-color:white;
+}
+
+section#projects div.project div.overlay{
+	height: 100%;
+	width: 100%;
+
+	background-color: rgba(255,255,255,0.90);
+	color: #16ba9a;
+    color:black;
+	font-weight: bold;
+
+
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	display:none;
+}
+
+section#projects div.project div.overlay h3{
+	text-align: center;
+    margin:5px auto;
+    font-size: 1.2em;
+}
+
+section#projects div.project:hover > div.overlay{
+	display:block;
+}
+
+section#projects div.project:hover > div.background > h2.title{
+	display:none;
+}
+
+ /* Mínimo 500 máximo 720 
+ **************************************************************************************************************
+ */
+@media screen and (min-width : 500px){
+	div.column{
+	height: 100%;
+	width:80%;
+	margin:0 auto;
+}
+
+	section#projects div.project{
+		width: 95%;
+		max-width: 380px;
+	}
+}
+
+/* Mínimo 720 máximo 840 
+ **************************************************************************************************************
+ */
+@media screen and (min-width : 720px){
+    section#projects{
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+
+	section#projects div.project{
+		width: 46%;
+	}
+}
+/* Mínimo 840 máximo 1080 
+ **************************************************************************************************************
+ */
+@media screen and (min-width : 840px){
+   	section#projects div.project{
+		width: 330px;
+	}
+}
+
+/* Mínimo 1080 
+ **************************************************************************************************************
+ */
+@media screen and (min-width : 1080px){
+    section#projects{
+    	width: 95%;
+    	margin: 0 auto;
+	}
+}
+
+#exploreAT-droptheword{
+	background-image:url("img/exploreAT-droptheword.png");
+}
+#exploreAT-organismexplorer{
+	background-image:url("img/exploreAT-organismexplorer.png");
+}
+#exploreAT-plantwordguruI{
+	background-image:url("img/exploreAT-plantwordguruI.png");
+}
+#exploreAT-plantwordguru-II{
+	background-image:url("img/exploreAT-plantwordguru-II.png");
+}
+#exploreAT--1word4pics{
+	background-image:url("img/exploreAT--1word4pics.png");
+}
+#exploreAT-rdf-explorer{
+	background-image:url("img/exploreAT-rdf-explorer.png");
+}
+#exploreAT-concepttopography{
+	background-image:url("img/exploreAT-concepttopography.png");
+}
+#exploreat-dh-dashboard{
+	background-image:url("img/exploreat-dh-dashboard.png");
+}
+#exploreAT-conceptlights{
+	background-image:url("img/exploreAT-conceptlights.png");
+}
+#exploreAT-bedeutung{
+	background-image:url("img/exploreAT-bedeutung.png");
+}
+#exploreAT-circle-packed-questionnaires{
+	background-image:url("img/exploreAT-circle-packed-questionnaires.png");
+}
+#exploreAT-context-navigation{
+	background-image:url("img/exploreAT-context-navigation.png");
+}
+#exploreAT-geographical-lemmas{
+	background-image:url("img/exploreAT-geographical-lemmas.png");
+}
+#exploreAT-hierarquical-questionnaire-tree{
+	background-image:url("img/exploreAT-hierarquical-questionnaire-tree.png");
+}
+#exploreAT-plants-explorer{
+	background-image:url("img/exploreAT-plants-explorer.png");
+}
+#exploreAT-questionnaire-explorer{
+	background-image:url("img/exploreAT-questionnaire-explorer.png");
+}
+#exploreAT-raw-questionnaire-exploration{
+	background-image:url("img/exploreAT-raw-questionnaire-exploration.png");
+}
+#exploreAT-tustep-map{
+	background-image:url("img/exploreAT-tustep-map.png");
+}
+#exploreAT-word-source-relations{
+	background-image:url("img/exploreAT-word-source-relations.png");
+}
