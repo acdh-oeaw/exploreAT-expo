@@ -3,7 +3,9 @@ WEBDIR="$1"
 TEMPDIR="$2" 
 NAME="$3"
 
-cd "$TEMPDIR/$NAME/client"
+echo "deploying $NAME"
+
+cd "$TEMPDIR/$NAME"
 yarn install
 yarn build
 

@@ -131,59 +131,65 @@ section#projects div.project:hover > div.background > h2.title{
 }
 
 #exploreAT-droptheword{
-	background-image:url("img/exploreAT-droptheword.png");
-}
+	background-image: url("img/exploreAT-droptheword.png")
+} 
 #exploreAT-organismexplorer{
-	background-image:url("img/exploreAT-organismexplorer.png");
-}
+	background-image: url("img/exploreAT-organismexplorer.png")
+} 
 #exploreAT-plantwordguruI{
-	background-image:url("img/exploreAT-plantwordguruI.png");
-}
+	background-image: url("img/exploreAT-plantwordguruI.png")
+} 
 #exploreAT-plantwordguru-II{
-	background-image:url("img/exploreAT-plantwordguru-II.png");
-}
+	background-image: url("img/exploreAT-plantwordguru-II.png")
+} 
 #exploreAT--1word4pics{
-	background-image:url("img/exploreAT--1word4pics.png");
-}
+	background-image: url("img/exploreAT--1word4pics.png")
+} 
 #exploreAT-rdf-explorer{
-	background-image:url("img/exploreAT-rdf-explorer.png");
-}
+	background-image: url("img/exploreAT-rdf-explorer.png")
+} 
 #exploreAT-concepttopography{
-	background-image:url("img/exploreAT-concepttopography.png");
-}
+	background-image: url("img/exploreAT-concepttopography.png")
+} 
 #exploreat-dh-dashboard{
-	background-image:url("img/exploreat-dh-dashboard.png");
-}
+	background-image: url("img/exploreat-dh-dashboard.png")
+} 
 #exploreAT-conceptlights{
-	background-image:url("img/exploreAT-conceptlights.png");
-}
-#exploreAT-bedeutung{
-	background-image:url("img/exploreAT-bedeutung.png");
-}
-#exploreAT-circle-packed-questionnaires{
-	background-image:url("img/exploreAT-circle-packed-questionnaires.png");
-}
-#exploreAT-context-navigation{
-	background-image:url("img/exploreAT-context-navigation.png");
-}
-#exploreAT-geographical-lemmas{
-	background-image:url("img/exploreAT-geographical-lemmas.png");
-}
-#exploreAT-hierarquical-questionnaire-tree{
-	background-image:url("img/exploreAT-hierarquical-questionnaire-tree.png");
-}
-#exploreAT-plants-explorer{
-	background-image:url("img/exploreAT-plants-explorer.png");
-}
+	background-image: url("img/exploreAT-conceptlights.png")
+} 
+#exploreAT-meaning-network{
+	background-image: url("img/exploreAT-meaning-network.png")
+} 
+#exploreAT-questonnairepod{
+	background-image: url("img/exploreAT-questonnairepod.png")
+} 
+#exploreAT-organism-navigator{
+	background-image: url("img/exploreAT-organism-navigator.png")
+} 
+#exploreAT-word-map{
+	background-image: url("img/exploreAT-word-map.png")
+} 
+#exploreAT-questionnaire-tree{
+	background-image: url("img/exploreAT-questionnaire-tree.png")
+} 
+#exploreAT-organismexplorer{
+	background-image: url("img/exploreAT-organismexplorer.png")
+} 
 #exploreAT-questionnaire-explorer{
-	background-image:url("img/exploreAT-questionnaire-explorer.png");
-}
-#exploreAT-raw-questionnaire-exploration{
-	background-image:url("img/exploreAT-raw-questionnaire-exploration.png");
-}
-#exploreAT-tustep-map{
-	background-image:url("img/exploreAT-tustep-map.png");
-}
-#exploreAT-word-source-relations{
-	background-image:url("img/exploreAT-word-source-relations.png");
-}
+	background-image: url("img/exploreAT-questionnaire-explorer.png")
+} 
+#exploreAT-questionnaire-guide{
+	background-image: url("img/exploreAT-questionnaire-guide.png")
+} 
+#exploreAT-collectionexplorer{
+	background-image: url("img/exploreAT-collectionexplorer.png")
+} 
+#exploreAT-wordmapconnected{
+	background-image: url("img/exploreAT-wordmapconnected.png")
+} 
+#exploreAT-search4words{
+	background-image: url("img/exploreAT-search4words.png")
+} 
+#exploreAT-unhealthy-healthy{
+	background-image: url("img/exploreAT-unhealthy-healthy.png")
+} 

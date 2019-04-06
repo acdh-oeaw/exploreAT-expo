@@ -3,6 +3,8 @@ WEBDIR="$1"
 TEMPDIR="$2" 
 NAME="$3"
 
+echo "deploying $NAME"
+
 cd "$TEMPDIR/$NAME"
 yarn install
 yarn build
