@@ -6,7 +6,9 @@ NAME="$3"
 echo "deploying $NAME"
 
 cp -r "$TEMPDIR/$NAME/." "$WEBDIR/$NAME"
-mv "$WEBDIR/$NAME/ex_rdf_plants.html" "$WEBDIR/$NAME/index.html"
+cd "$WEBDIR/$NAME"
+yarn install
 
 #rm -fr "$TEMPDIR/$NAME"
-echo exploreAT-organismexplorer.sh deployed
+echo "$NAME" deployed
+

@@ -10,7 +10,7 @@ https://github.com/acdh-oeaw/exploreAT-search4words yes
 https://github.com/acdh-oeaw/exploreAT-conceptlights yes
 https://github.com/acdh-oeaw/exploreAT--1word4pics yes
 https://github.com/acdh-oeaw/exploreAT-rdf-explorer yes
-
+https://github.com/acdh-oeaw/exploreAT-data yes
 https://github.com/acdh-oeaw/exploreAT-meaning-network yes
 https://github.com/acdh-oeaw/exploreAT-questonnairepod yes
 https://github.com/acdh-oeaw/exploreAT-organism-navigator yes
