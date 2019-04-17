@@ -1,5 +1,5 @@
 https://github.com/acdh-oeaw/exploreAT-droptheword yes
-https://github.com/acdh-oeaw/exploreAT-collectionexplorer no
+https://github.com/acdh-oeaw/exploreAT-collectionexplorer yes
 https://github.com/acdh-oeaw/exploreAT-organismexplorer yes
 https://github.com/acdh-oeaw/exploreat-dh-dashboard yes
 https://github.com/acdh-oeaw/exploreAT-concepttopography no
